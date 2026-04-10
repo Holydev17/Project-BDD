@@ -1,0 +1,14 @@
+ehotels/servlets/ChaineServlet.class
+ehotels/servlets/AcceuilServlet.class
+ehotels/models/Hotel.class
+ehotels/servlets/HotelServlet.class
+ehotels/db/DBConnection.class
+ehotels/dao/ChambreDAO.class
+ehotels/models/ChaineHotel.class
+ehotels/TestDb.class
+ehotels/dao/ReservationDAO.class
+ehotels/models/Chambre.class
+ehotels/servlets/RegistrationServlet.class
+ehotels/models/Location.class
+ehotels/models/Client.class
+ehotels/models/Reservation.class

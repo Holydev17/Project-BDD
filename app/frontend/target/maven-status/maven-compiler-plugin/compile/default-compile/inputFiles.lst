@@ -1,0 +1,15 @@
+/Users/monzasango/Project-BDD/app/frontend/src/main/java/ehotels/TestDb.java
+/Users/monzasango/Project-BDD/app/frontend/src/main/java/ehotels/dao/ChambreDAO.java
+/Users/monzasango/Project-BDD/app/frontend/src/main/java/ehotels/dao/ClientDAO.java
+/Users/monzasango/Project-BDD/app/frontend/src/main/java/ehotels/dao/ReservationDAO.java
+/Users/monzasango/Project-BDD/app/frontend/src/main/java/ehotels/db/DBConnection.java
+/Users/monzasango/Project-BDD/app/frontend/src/main/java/ehotels/models/ChaineHotel.java
+/Users/monzasango/Project-BDD/app/frontend/src/main/java/ehotels/models/Chambre.java
+/Users/monzasango/Project-BDD/app/frontend/src/main/java/ehotels/models/Client.java
+/Users/monzasango/Project-BDD/app/frontend/src/main/java/ehotels/models/Hotel.java
+/Users/monzasango/Project-BDD/app/frontend/src/main/java/ehotels/models/Location.java
+/Users/monzasango/Project-BDD/app/frontend/src/main/java/ehotels/models/Reservation.java
+/Users/monzasango/Project-BDD/app/frontend/src/main/java/ehotels/servlets/AcceuilServlet.java
+/Users/monzasango/Project-BDD/app/frontend/src/main/java/ehotels/servlets/ChaineServlet.java
+/Users/monzasango/Project-BDD/app/frontend/src/main/java/ehotels/servlets/HotelServlet.java
+/Users/monzasango/Project-BDD/app/frontend/src/main/java/ehotels/servlets/RegistrationServlet.java

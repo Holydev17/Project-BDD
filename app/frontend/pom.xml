@@ -1,0 +1,73 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+        http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+<modelVersion>4.0.0</modelVersion>
+<groupId>ehotels</groupId>
+<artifactId>frontend</artifactId>
+<version>1.0</version>
+<packaging>war</packaging>
+
+<dependencies>
+
+  <!-- Servlet API - Tomcat 11 utilise jakarta -->
+  <dependency>
+    <groupId>jakarta.servlet</groupId>
+    <artifactId>jakarta.servlet-api</artifactId>
+    <version>6.0.0</version>
+    <scope>provided</scope>
+  </dependency>
+
+  <!-- Driver PostgreSQL -->
+  <dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>42.7.10</version>
+    <scope>runtime</scope>
+  </dependency>
+
+  <!-- JSTL pour les JSP -->
+  <dependency>
+    <groupId>jakarta.servlet.jsp.jstl</groupId>
+    <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+    <version>3.0.0</version>
+  </dependency>
+
+  <dependency>
+    <groupId>org.glassfish.web</groupId>
+    <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+    <version>3.0.1</version>
+  </dependency>
+
+</dependencies>
+
+<build>
+  <plugins>
+
+    <!-- Compile avec Java 21 -->
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.13.0</version>
+      <configuration>
+        <source>21</source>
+        <target>21</target>
+      </configuration>
+    </plugin>
+
+    <!-- Génère le fichier .war -->
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-war-plugin</artifactId>
+      <version>3.4.0</version>
+      <configuration>
+        <warSourceDirectory>src/main/webapp</warSourceDirectory>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
+      </configuration>
+    </plugin>
+
+  </plugins>
+</build>
+
+</project>
